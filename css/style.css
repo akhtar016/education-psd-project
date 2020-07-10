@@ -369,8 +369,25 @@ textarea {
 
 /* Helper Classes Begin */
 
+.alignRight {
+    float: right;
+}
 
+.alignLeft {
+    float: left;
+}
 
+.clearBoth {
+    clear: both;
+}
+
+.clearRight {
+    clear: right;
+}
+
+.clearLeft {
+    clear: left;
+}
 
 /* Helper Classes Ends */
 
@@ -391,7 +408,18 @@ textarea {
 /* General CSS Starts*/
 
 
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
 
+
+#first-section {
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
